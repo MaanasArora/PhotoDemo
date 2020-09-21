@@ -29,6 +29,6 @@ class Photo {
   }
 }
 
-let newPhoto = Photo();
+let newPhoto = new Photo();
 
 console.log(newPhoto);
