@@ -8,9 +8,9 @@ class Photo {
   }
 
   price() {
-    if (width == 8 && height == 10) {
+    if (this.width == 8 && this.height == 10) {
       return 4;
-    } else if (width == 10 && height == 12) {
+    } else if (this.width == 10 && this.height == 12) {
       return 6;
     } else {
       return 10;
